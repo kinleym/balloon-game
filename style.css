@@ -1,0 +1,22 @@
+/* style.css */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#gameContainer {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+.balloon {
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    background-image: url('balloon.png'); /* Direct reference to the image file */
+    background-size: cover;
+    cursor: pointer;
+}
